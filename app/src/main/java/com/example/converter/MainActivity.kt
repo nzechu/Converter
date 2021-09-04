@@ -24,7 +24,7 @@ import kotlin.math.ceil
 
      private fun convertMoney() {
          val inputText = binding.inputField.text.toString().toDouble()
-         var calc = inputText * 33
+         var calc = inputText /1000000000 *52.12
 
 
          var roundUp = binding.convertSwitch.isChecked
